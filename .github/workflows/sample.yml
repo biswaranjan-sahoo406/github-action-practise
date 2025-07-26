@@ -6,8 +6,9 @@ on:
         - 'main'
 
 jobs: 
-    print message:
+    print-message:
         runs-on: ubuntu-latest
+
         steps:
             - name: print message
-          run: echo "new push detected on main branch"
+              run: echo "new push detected on main branch"
