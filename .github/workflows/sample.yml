@@ -12,3 +12,6 @@ jobs:
         steps:
             - name: print message
               run: echo "new push detected on main branch"
+
+            - name: give meassage
+              run: echo "give message"
